@@ -1,0 +1,78 @@
+﻿<html>
+
+<head>
+    <!--<link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
+    <link rel="icon" href="src/assets/yinyang.ico" type="image/x-icon">-->
+    <meta charset="utf-8">
+    <meta name="og:site_name" content="HoloSort RU">
+    <meta name="og:description" content="Сортировщик Hololive участников для создания топа.">
+    <title>HoloSort RU</title>
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+    <script src="src/js/data.js"></script>
+    <script src="src/js/data/2024-02-10.js"></script>
+
+    <script src="src/js/html2canvas.min.js"></script>
+    <script src="src/js/lz-string.min.js"></script>
+    <script src="src/js/seedrandom.min.js"></script>
+    <script src="src/js/main.js"></script>
+    <meta property="og:url" content="https://holosort.viryt.xyz/" />
+</head>
+
+<body>
+<div class="container">
+
+    <div class="progress">
+        <span class="progressbattle"></span>
+        <div class="progressbar">
+            <div class="progressfill"><span class="progresstext"></span></div>
+        </div>
+    </div>
+
+    <div class="sorter">
+        <img src="https://imgur.com/9Zu6c9I.jpg" class="left sort image">
+
+        <div class="starting start button">HoloSortRU<br><br>Начать!</div>
+        <div class="starting load button">Загрузить <span></span></div>
+
+        <div class="loading button"><div></div><span>Загрузка...</span></div>
+
+        <div class="sorting tie button">Пропуск</div>
+        <div class="sorting undo button">Отмена</div>
+        <div class="sorting save button">Сохранить</div>
+
+        <div class="finished save button">Создать ссылку на результат</div>
+        <div class="finished getimg button">Создать изображение</div>
+        <div class="finished list button">Создать текстовый список</div>
+
+        <img src="https://imgur.com/SXBBrGm.jpg" class="right sort image">
+
+        <div class="left sort text"><p></p></div>
+        <div class="right sort text"><p></p></div>
+    </div>
+
+    <div class="options"></div>
+    <div class="image selector">Отображение изображений в результате: </div>
+    <div class="time taken"></div>
+    <div class="results"></div>
+
+    <div class="info">
+        <a href="https://damecon.github.io/HoloSort/">Английский оригинал</a> | <a class="clearsave">Очистить сохранённые данные</a>
+
+        <br><br>
+
+        <p>Сортировщик Hololive участников. Выберите категории и начните игру.</p>
+        <p><strong>Это перевод анлийской версии.</strong></p>
+
+        <br><br>
+
+        <p>Элементы управления с клавиатуры во время сортировки: H/Стрелка влево (выбор влево), J/Стрелка вниз (отмена), K/Стрелка вверх (связка), L/Стрелка вправо (выбор вправо) и S (сохранить прогресс).</p>
+        <p>Перед сортировкой: S/Enter (начать сортировку), L (прогресс загрузки).</p>
+        <p>1/2/3 всегда соответствуют первой/второй/третьей кнопкам.</p>
+    </div>
+</div>
+</body>
+
+</html>
